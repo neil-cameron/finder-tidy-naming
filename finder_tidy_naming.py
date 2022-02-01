@@ -138,8 +138,8 @@ def process_title(title, **kwargs):
 
 
 # Test
-for item in examples:
-    print(process_title(item))
+# for item in examples:
+#     print(process_title(item))
 
 
 def rename_file(dir_path, file_name, front, end):
@@ -190,5 +190,5 @@ def rename_dirs_and_files(path_to_process, front, end):
 
 
 # Run the script
-# for individual_path in list_of_paths:
-#     rename_dirs_and_files(individual_path, front, end)
+for individual_path in list_of_paths:
+    rename_dirs_and_files(individual_path, front, end)
