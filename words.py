@@ -62,6 +62,7 @@ unmodified_words = [
     "ANSYS",
     "ASM",
     "BBC",
+    "NPR",
 ]
 
 # Delimeters to pad

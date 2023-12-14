@@ -98,7 +98,7 @@ def process_title(title, **kwargs):
                 mod_word = word
             if word == ".":
                 if previous_word.isdigit():
-                    mod_word = "."
+                    mod_word = ""  # "."  # Special tweak to no longer keep decimal points as decimal points because of titles like 07.F1.2023.Round.23.Abu.Dhabi.mkv
                 else:
                     mod_word = ""
 
