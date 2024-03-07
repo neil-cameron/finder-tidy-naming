@@ -68,6 +68,9 @@ def process_title(title, **kwargs):
         )
         return
 
+    # Remove %20
+    title = title.replace("%20", " ")
+
     # Pad delimeters
     for delim in delims:
         title = title.replace(delim, " " + delim + " ")
