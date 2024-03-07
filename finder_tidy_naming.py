@@ -70,6 +70,13 @@ def process_title(title, **kwargs):
 
     # Remove %20
     title = title.replace("%20", " ")
+    title = title.replace("%2C", " ")
+    title = title.replace("%7C", " ")
+    title = title.replace("%2B", " ")
+    title = title.replace("%E2", " ")
+    title = title.replace("%99", " ")
+    title = title.replace("%80", " ")
+    title = title.replace("%3A", " ")
 
     # Pad delimeters
     for delim in delims:

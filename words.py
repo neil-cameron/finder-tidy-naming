@@ -63,6 +63,9 @@ unmodified_words = [
     "ASM",
     "BBC",
     "NPR",
+    "AI",
+    "CPO",
+    "CEO",
 ]
 
 # Delimeters to pad
@@ -77,7 +80,6 @@ del_delims = [
     "_",
     "~",
     "",
-    "-",
     ".",
 ]
 
