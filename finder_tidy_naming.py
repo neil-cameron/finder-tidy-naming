@@ -95,6 +95,12 @@ def process_title(title, **kwargs):
     capitalised_words = []
     for position, word in enumerate(individual_words):
         mod_word = string.capwords(word)
+
+        # Keep acronyms
+        if word.isupper():
+            mod_word = word
+
+        # Normal cases
         if position != 0:
             previous_word = individual_words[position - 1]
             if word.lower() in lowercase_words:

@@ -81,6 +81,7 @@ del_delims = [
     "~",
     "",
     ".",
+    "|",
 ]
 
 # File names to ignore
